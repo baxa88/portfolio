@@ -12,43 +12,43 @@ const data=[
         id:1,
         image:IMG1,
         title:`Agro Olam o'simliklar haqida`,
-        github:'https://github.com',
+        github:'',
         demo:'https://agro-olam.netlify.app'
     },
     {
         id:2,
         image:IMG2,
         title:'Internet magazin ',
-        github:'https://github.com',
+        github:'',
         demo:'https://xcolor-1.netlify.app'
     },
     {
         id:3,
         image:IMG3,
         title:'Youtube clone api',
-        github:'https://github.com',
+        github:'',
         demo:'https://polite-haupia-e40cf2.netlify.app'
     },
     {
         id:4,
         image:IMG4,
         title:'Tayyorlanmoqda...',
-        github:'https://github.com',
-        demo:'https://github.com'
+        github:'',
+        demo:''
     },
     {
         id:5,
         image:IMG5,
         title:'Tayyorlanmoqda...',
-        github:'https://github.com',
-        demo:'https://github.com'
+        github:'',
+        demo:''
     },
     {
         id:6,
         image:IMG6,
         title:'Tayyorlanmoqda...',
-        github:'https://github.com',
-        demo:'https://github.com'
+        github:'',
+        demo:''
     }
 ]
 
