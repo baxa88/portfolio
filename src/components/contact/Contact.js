@@ -32,7 +32,7 @@ const Contact = () => {
                        <RiTelegramLine className='contact__option-icon'/>
                        <h4>Messenger</h4>
                        <h5>@baxrom_88_55</h5>
-                       <a href='#' >Serd a message</a>
+                       <a href='/#' >Serd a message</a>
                    </article>
                   
                </div>

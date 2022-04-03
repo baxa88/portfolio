@@ -11,19 +11,19 @@ const Nav = () => {
     const [activeNav,setActiveNav]=useState('')
     return (
       <nav>
-          <a href='#' onClick={()=>setActiveNav('#')} 
+          <a href='/#' onClick={()=>setActiveNav('#')} 
           className={activeNav==='#' ? 'active' : ''}><AiOutlineHome/></a>
 
-          <a href='#portfolio' onClick={()=>setActiveNav('#about')} 
+          <a href='/#portfolio' onClick={()=>setActiveNav('#about')} 
           className={activeNav==='#about' ? 'active' : ''}><AiOutlineProfile/></a>
 
-          <a href='#experience' onClick={()=>setActiveNav('#experience')} 
+          <a href='/#experience' onClick={()=>setActiveNav('#experience')} 
           className={activeNav==='#experience' ? 'active' : ''} ><BiBook/></a>
 
-          <a href='#testimonials' onClick={()=>setActiveNav('#services')} 
+          <a href='/#testimonials' onClick={()=>setActiveNav('#services')} 
           className={activeNav==='#services' ? 'active' : ''} ><RiServiceLine/></a>
           
-          <a href='#contact' onClick={()=>setActiveNav('#contact')}
+          <a href='/#contact' onClick={()=>setActiveNav('#contact')}
           className={activeNav==='#contact' ? 'active' : ''} ><BiMessageSquareDetail/></a>
       </nav>
     );
