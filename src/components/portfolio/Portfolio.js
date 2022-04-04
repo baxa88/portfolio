@@ -27,7 +27,7 @@ const data=[
         image:IMG3,
         title:'Youtube clone api',
         github:'',
-        demo:'https://polite-haupia-e40cf2.netlify.app'
+        demo:'https://youtube-clone-55.netlify.app'
     },
     {
         id:4,
