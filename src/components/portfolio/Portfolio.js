@@ -32,7 +32,7 @@ const data=[
     {
         id:4,
         image:IMG4,
-        title:'Tayyorlanmoqda...',
+        title:'Matnni QR kodga aylantirish',
         github:'',
         demo:'https://qr-kodni-skaner.netlify.app'
     },
