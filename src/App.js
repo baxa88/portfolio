@@ -8,11 +8,13 @@ import Contact from './components/contact/Contact.js';
 import Footer from './components/footer/Footer.js';
 import Animation from './components/animation/Animation';
 
+
 const App = () => {
 
  
     return (
       <>
+      
       <Animation/>
       <Header/>
       <Nav/>

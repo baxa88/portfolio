@@ -34,7 +34,7 @@ const data=[
         image:IMG4,
         title:'Tayyorlanmoqda...',
         github:'',
-        demo:''
+        demo:'https://qr-kodni-skaner.netlify.app'
     },
     {
         id:5,
