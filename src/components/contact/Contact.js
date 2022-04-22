@@ -17,8 +17,8 @@ const Contact = () => {
     }
     return (
         <section id='contact'>
-           <h5>Get in Touch</h5>
-           <h2>Contact Me</h2>
+           <h5>Aloqaga chiqish</h5>
+           <h2>Mening kontaktim</h2>
 
            <div className='container contact__container'>
                <div className='contact__options'>
@@ -26,21 +26,21 @@ const Contact = () => {
                        <MdOutlineEmail className='contact__option-icon'/>
                        <h4>Email</h4>
                        <h5>mamasolibaxromjon@gmail.com</h5>
-                       <a href='https://mail.google.com/'>Serd a message</a>
+                       <a href='https://mail.google.com/'>Habar yuborish</a>
                    </article>
                    <article className='contact__option'>
                        <RiTelegramLine className='contact__option-icon'/>
                        <h4>Messenger</h4>
                        <h5>@baxrom_88_55</h5>
-                       <a href='/#' >Serd a message</a>
+                       <a href='/#' >Habar yuborish</a>
                    </article>
                   
                </div>
                <form ref={form} onSubmit={sendEmail}>
-                   <input type='text' name='name' placeholder='Your Name' required/>
-                   <input type='email' name='email' placeholder='Your Email' required/>
-                   <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
-                   <button type='submit' className='btn btn-primary'>Send Message</button>
+                   <input type='text' name='name' placeholder='Sizning ismingiz' required/>
+                   <input type='email' name='email' placeholder='Sizning email pochtangiz' required/>
+                   <textarea name='message' rows='7' placeholder='Habarni yozing' required></textarea>
+                   <button type='submit' className='btn btn-primary'>Habar yuborish</button>
                </form>
            </div>
         </section>

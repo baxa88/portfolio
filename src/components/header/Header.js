@@ -17,7 +17,7 @@ const Header = () => {
                <div className='me'>
                   
                </div>
-               <a href='#contact' className='scroll__down'>Scroll Down</a>
+               <a href='#contact' className='scroll__down'>Oxiriga o'tkazish</a>
            </div>
        </header>
     );

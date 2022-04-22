@@ -25,7 +25,7 @@ const data=[
     {
         id:3,
         image:IMG3,
-        title:'Youtube clone api',
+        title:'Youtube clone API',
         github:'',
         demo:'https://youtube-clone-55.netlify.app'
     },
@@ -39,9 +39,9 @@ const data=[
     {
         id:5,
         image:IMG5,
-        title:'Tayyorlanmoqda...',
+        title:'Kino katalog API',
         github:'',
-        demo:''
+        demo:'https://kino-katalog.netlify.app'
     },
     {
         id:6,
@@ -55,7 +55,7 @@ const data=[
 const Portfolio = () => {
     return (
         <section id='portfolio'>
-          <h5>My Recent Work </h5>
+          <h5>Mening ishlarim</h5>
           <h2>Portfolio</h2>
 
           <div className='container portfolio__container'>
@@ -71,7 +71,7 @@ const Portfolio = () => {
                           <h3>{title}</h3>
                             <div className='portfolio__item-cta'>
                                  <a href={github} className='btn' >Github</a>
-                      <a href={demo} className='btn btn-primary' >Live Demo</a>
+                      <a href={demo} className='btn btn-primary' target="_blank" rel="noopener noreferrer">Hozir Ko'rish</a>
                             </div>                     
                    </article>
                     )                 
