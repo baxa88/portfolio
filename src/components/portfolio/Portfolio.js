@@ -46,9 +46,9 @@ const data=[
     {
         id:6,
         image:IMG6,
-        title:'Tayyorlanmoqda...',
+        title:'Online chat ',
         github:'',
-        demo:''
+        demo:'https://online-chatt.netlify.app'
     }
 ]
 
